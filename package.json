@@ -1,0 +1,16 @@
+{
+  "name": "canvasrider-trackcode-parser",
+  "description": "Streaming parser for CanvasRider track codes.",
+  "license": "MIT",
+  "repository": "goto-bus-stop/canvasrider-trackcode-parser",
+  "author": "",
+  "dependencies": {
+    "through2": "^2.0.3"
+  },
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "devDependencies": {
+    "tape": "^4.6.3"
+  }
+}
