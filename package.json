@@ -11,6 +11,7 @@
     "test": "tape test.js"
   },
   "devDependencies": {
+    "got": "^6.7.1",
     "tape": "^4.6.3"
   }
 }
