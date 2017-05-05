@@ -3,7 +3,7 @@
   "description": "Streaming parser for CanvasRider track codes.",
   "license": "MIT",
   "repository": "goto-bus-stop/canvasrider-trackcode-parser",
-  "author": "",
+  "author": "Renée Kooi <renee@kooi.me>",
   "dependencies": {
     "through2": "^2.0.3"
   },
