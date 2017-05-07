@@ -132,11 +132,16 @@ module.exports = function canvasRiderTrackcodeParser() {
   function onwrite(chunk, enc, cb) {
     var separator
     while ((separator = chunk.indexOf('#')) !== -1) {
-      parsers[state].end(chunk.slice(0, separator))
+      if (parsers[state]) {
+        parsers[state].end(chunk.slice(0, separator))
+      }
       chunk = chunk.slice(separator + 1)
       state += 1
     }
-    parsers[state].write(chunk)
+    // If there were more # than expected, treat the rest as junk
+    if (parsers[state]) {
+      parsers[state].write(chunk)
+    }
 
     cb()
   }
