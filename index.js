@@ -110,7 +110,7 @@ function timeParser() {
   }
 }
 
-module.exports = function canvasRiderTrackcodeParser() {
+module.exports = function freeRiderTrackcodeParser() {
   var state = 0
 
   var parsers = [

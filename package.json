@@ -1,17 +1,17 @@
 {
-  "name": "canvasrider-trackcode-parser",
-  "description": "Streaming parser for CanvasRider track codes.",
+  "name": "freerider-trackcode-parser",
+  "description": "Streaming parser for Free Rider track codes.",
   "version": "0.0.0",
   "main": "index.js",
   "license": "MIT",
   "author": "Renée Kooi <renee@kooi.me>",
-  "homepage": "https://github.com/goto-bus-stop/canvasrider-trackcode-parser#readme",
+  "homepage": "https://github.com/goto-bus-stop/freerider-trackcode-parser#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goto-bus-stop/canvasrider-trackcode-parser.git"
+    "url": "git+https://github.com/goto-bus-stop/freerider-trackcode-parser.git"
   },
   "bugs": {
-    "url": "https://github.com/goto-bus-stop/canvasrider-trackcode-parser/issues"
+    "url": "https://github.com/goto-bus-stop/freerider-trackcode-parser/issues"
   },
   "dependencies": {
     "through2": "^2.0.3"

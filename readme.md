@@ -1,12 +1,12 @@
-# canvasrider-trackcode-parser
+# freerider-trackcode-parser
 
-A streaming parser for [CanvasRider](http://canvasrider.com/) trackcodes.
+A streaming parser for Free Rider trackcodes, like those used by [CanvasRider](http://canvasrider.com/).
 
 ## Usage
 
 ```js
 var got = require('got').stream
-var parser = require('canvasrider-trackcode-parser')
+var parser = require('freerider-trackcode-parser')
 
 var request = got.post('http://canvasrider.com/js/load.php', {
   body: {
