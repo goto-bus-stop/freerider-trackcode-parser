@@ -2,25 +2,25 @@
   "name": "freerider-trackcode-parser",
   "description": "Streaming parser for Free Rider track codes.",
   "version": "0.0.0",
-  "main": "index.js",
-  "license": "MIT",
   "author": "Renée Kooi <renee@kooi.me>",
-  "homepage": "https://github.com/goto-bus-stop/freerider-trackcode-parser#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/goto-bus-stop/freerider-trackcode-parser.git"
-  },
   "bugs": {
     "url": "https://github.com/goto-bus-stop/freerider-trackcode-parser/issues"
   },
   "dependencies": {
     "through2": "^2.0.3"
   },
-  "scripts": {
-    "test": "tape test.js"
-  },
   "devDependencies": {
     "got": "^8.3.1",
     "tape": "^4.6.3"
+  },
+  "homepage": "https://github.com/goto-bus-stop/freerider-trackcode-parser#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goto-bus-stop/freerider-trackcode-parser.git"
+  },
+  "scripts": {
+    "test": "tape test.js"
   }
 }
