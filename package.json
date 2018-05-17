@@ -1,7 +1,7 @@
 {
   "name": "freerider-trackcode-parser",
   "description": "Streaming parser for Free Rider track codes.",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Renée Kooi <renee@kooi.me>",
   "bugs": {
     "url": "https://github.com/goto-bus-stop/freerider-trackcode-parser/issues"
