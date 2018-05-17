@@ -2,6 +2,7 @@ var got = require('got').stream
 var parser = require('.')
 
 var request = got.post('http://canvasrider.com/js/load.php', {
+  form: true,
   body: {
     track: 1463046
   }
